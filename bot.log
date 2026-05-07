@@ -1,0 +1,9 @@
+2026/05/07 10:04:11 main.go:19: set BOT_TOKEN env var
+2026/05/07 10:04:47 main.go:24: Not Found
+2026/05/07 10:05:11 main.go:24: Not Found
+2026/05/07 10:05:13 main.go:27: Authorized: atlastirbot
+2026/05/07 10:05:34 main.go:27: Authorized: atlastirbot
+2026/05/07 10:07:44 main.go:27: Authorized: atlastirbot
+2026/05/07 10:08:52 main.go:19: set BOT_TOKEN env var
+2026/05/07 10:11:22 main.go:19: set BOT_TOKEN env var
+2026/05/07 10:12:32 main.go:19: set BOT_TOKEN env var

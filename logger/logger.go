@@ -1,0 +1,17 @@
+package logger
+
+import (
+	"log"
+	"os"
+)
+
+var Log *log.Logger
+
+func Init(filename string) error {
+	file, err := os.OpenFile(filename, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
+	if err != nil {
+		return err
+	}
+	Log = log.New(file, "", log.LstdFlags|log.Lshortfile)
+	return nil
+}
